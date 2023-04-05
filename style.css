@@ -1,0 +1,12 @@
+.cabecalho {
+    position:relative;
+    padding: 14px 70px;
+    background-color: rgb(20, 64, 145);
+    text-align: center;
+    
+}
+.lista{
+    position: relative;   
+font-family: 'Delicious Handrawn', cursive;
+
+}

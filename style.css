@@ -1,12 +1,20 @@
 .cabecalho {
     position:relative;
     padding: 14px 70px;
-    background-color: rgb(20, 64, 145);
     text-align: center;
-    
+    background-image:linear-gradient(to top,rgb(206, 245, 255), rgb(1, 14, 39));
+    color: rgb(243, 247, 246);
 }
 .lista{
     position: relative;   
 font-family: 'Delicious Handrawn', cursive;
+font-size: 30px;
+text-align: center;
+
+}
+body{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+   
 
 }

@@ -2,19 +2,21 @@
     position:relative;
     padding: 14px 70px;
     text-align: center;
-    background-image:linear-gradient(to top,rgb(206, 245, 255), rgb(1, 14, 39));
+    background-image:linear-gradient(to top,rgba(239, 248, 250, 0.527), rgb(17, 32, 58));
     color: rgb(243, 247, 246);
 }
-.lista{
-    position: relative;   
-font-family: 'Delicious Handrawn', cursive;
+.texto{
+    position: relative; 
 font-size: 30px;
 text-align: center;
+list-style: none;
 
 }
 body{
     margin: 0px;
-    background-color: rgb(255, 255, 255);
-   
-
+    background-color: rgba(239, 248, 250, 0.527);
+}
+.texto{ 
+    text-align: center;
+    font-family: 'Sofia Sans Condensed', sans-serif;
 }

@@ -2,8 +2,8 @@
     position:relative;
     padding: 14px 70px;
     text-align: center;
-    background-image:linear-gradient(to top,rgba(239, 248, 250, 0.527), rgb(17, 32, 58));
-    color: rgb(243, 247, 246);
+    background-image:linear-gradient(to top,rgba(35, 6, 58, 0.527), rgb(17, 32, 58));
+    color: rgb(227, 248, 243);
 }
 .texto{
     position: relative; 
@@ -11,12 +11,28 @@ font-size: 30px;
 text-align: center;
 list-style: none;
 
+
 }
 body{
     margin: 0px;
-    background-color: rgba(239, 248, 250, 0.527);
+    background-color: rgba(13, 1, 22, 0.904);
+}
+
+#player{
+
+background: transparent;
+height: 70px;
+width: 450px;
+top: 300px;
+left:100px;
+font-family: 'Montserrat', sans-serif;
+color:aliceblue;
+
 }
 .texto{ 
     text-align: center;
-    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+   
+    top:700px;
+color:
 }

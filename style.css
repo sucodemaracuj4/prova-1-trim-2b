@@ -20,7 +20,7 @@ body{
 
 #player{
 
-background: transparent;
+background-color: transparent;
 height: 70px;
 width: 450px;
 top: 300px;
@@ -29,10 +29,12 @@ font-family: 'Montserrat', sans-serif;
 color:aliceblue;
 
 }
-.texto{ 
-    text-align: center;
+#player2{
+    background-color: transparent;
+    height: 70px;
+    width: 450px;
+    top: 400px;
+    left: 100px;
     font-family: 'Montserrat', sans-serif;
-   
-    top:700px;
-color:
+    color: aliceblue;
 }

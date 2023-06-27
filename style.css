@@ -1,40 +1,36 @@
+:root{
+  --fundo: #201913;
+  --verde: #BOC400;
+  --verdeClaro: #D5DE2E;
+  --bege: #C3BC95;
+  --begeEscuro: #D3CCA5;                                            
+}
 .cabecalho {
-    position:relative;
+    position: relative;
     padding: 14px 70px;
-    text-align: center;
-    background-image:linear-gradient(to top,rgba(35, 6, 58, 0.527), rgb(17, 32, 58));
-    color: rgb(227, 248, 243);
+   color: white;
 }
-.texto{
-    position: relative; 
-font-size: 30px;
-text-align: center;
-list-style: none;
 
-
-}
 body{
     margin: 0px;
-    background-color: rgba(13, 1, 22, 0.904);
+    background-color: var(--fundo)                                                                                    
 }
-
-#player{
-
-background-color: transparent;
-height: 70px;
-width: 450px;
-top: 300px;
-left:100px;
-font-family: 'Montserrat', sans-serif;
-color:aliceblue;
-
+#main{
+  display: flex;
+  justify-content: space-evenly;
+  heigh: 100vh;
+  width: 100vw;
+  
+  
 }
-#player2{
-    background-color: transparent;
-    height: 70px;
-    width: 450px;
-    top: 400px;
-    left: 100px;
-    font-family: 'Montserrat', sans-serif;
-    color: aliceblue;
+.shrek1, .shrek2, .shrekTerceiro, .shrek4{
+  height: 300px;
+  width: 240px;
+  color: white;
+  background-color: var(--bege);
+  
+  border-radius:10px;
+}
+.shrek2{
+  
 }

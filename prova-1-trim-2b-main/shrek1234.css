@@ -1,0 +1,13 @@
+:root{
+--fundo: #201913;
+--verde: #BOC400;
+--verdeClaro: #D5DE2E;
+--bege: #C3BC95;
+--begeEscuro: #D3CCA5;                                            
+}
+body{
+ margin: 0;
+  padding: 0;
+background-color: var(--fundo);
+color: white;
+}

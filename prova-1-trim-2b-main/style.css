@@ -1,57 +1,57 @@
 :root{
-    --fundo: #201913;
-    --verde: #B0C400;
-    --verdeClaro: #D5DE2E;
-    --bege: #C3BC95;
-    --begeEscuro: #D3CCA5;                                            
-  }
-  .cabecalho {
-      position: relative;
-      padding: 24px 70px;
-     color: white;
-    font-family: 'Pangolin', cursive;
-  }
-h3{font-family: 'Edu SA Beginner', cursive;
+  --fundo: #201913;
+  --verde: #B0C400;
+  --verdeClaro: #D5DE2E;
+  --bege: #C3BC95;
+  --begeEscuro: #D3CCA5;                                            
 }
+.cabecalho {
+    position: relative;
+    padding: 24px 70px;
+   color: white;
+  font-family: 'Pangolin', cursive;
+  font-size:20px;
+}
+h3{font-family: 'Barlow', sans-serif;
+}
+
+body{
+    margin: 0px;
+    background-color: var(--fundo)                                                                                    
+}
+#main{
+  display: flex;
+  justify-content: space-evenly;
+  height: 100vh;
+  width: 100vw;
   
-  body{
-      margin: 0px;
-      background-color: var(--fundo)                                                                                    
-  }
-  #main{
-    display: flex;
-    justify-content: space-evenly;
-    height: 100vh;
-          width: 100vw;
+  
 }
- .shrek1, .shrek2, .shrekTerceiro, .shrek4
-{
+.shrek1, .shrek2, .shrekTerceiro, .shrek4{
   height: 270px;
   width: 240px;
   color: white;
- background-color: #D3CCA5;
- opacity: 0.8;                                                              padding-top: 20px;
-      text-align: center;           
-      border-radius:10px;
-      border: none;
-      transition: 400ms;
-    }
-  .opacity{ 
-    background-color:#C3BC95;  
+  background-color: var(--bege);
+  padding-top: 20px;
+
+  text-align: center;           
+  border-radius:10px;
+  border: none;
+  transition: 400ms;
 }
-    .shrek1:hover, .shrek2:hover, .shrekTerceiro:hover, .shrek4:hover {
-      transform:scale(1.05);                                                                             
-  }
-  a{
-    text-decoration: none;
-    
-  }
-  .imagem{
-    width: 200px;
-    height: 200px;
-    border-radius: 10px;
-  }
-    #imgterceiro{
-        height: 200px;
-    }                                               
-   
+.shrek1:hover, .shrek2:hover, .shrekTerceiro:hover, .shrek4:hover {
+  transform:scale(1.05);                                                                             
+}
+a{
+  text-decoration: none;
+  
+}
+.imagem{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+  #imgterceiro{
+      height: 200px;
+  }                                               
+ 

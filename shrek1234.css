@@ -1,1 +1,77 @@
+:root{
+--fundo: #0f0700;
+--verde: #B0C400;
+--verdeClaro: #D5DE2E;
+--verdeEscuro:#113915;
+--bege: #c3bc9536;
+--begeEscuro: #d3cca511;      
+--cinzaEscuro:#C3BC95;
+--cinzaClaro:#D3CCA5;
+--oliva:#808000;   
+--oliveDrab:#6B8E23;
+--olivaEscura:#556b2f;
+}
+body{
+ margin: 0;
+ padding: 0;
+ background-color:var(--olivaEscura); 
+}
+ul{
+  list-style-type: none;
+  
+}
+header{
+  display:flex;
+  padding: 20px 15px;
+  color: var(--fundo);
+  font-family: 'Pangolin', cursive;
+  font-size:23px;
+}
+              
+.pesquisar{
+  
+  align-self: center;
+  border:none;
+  width:30px;
+  background-color:transparent;
+  cursor:pointer;
 
+}
+img{
+  padding-right:780px;
+    
+}
+
+#searchInput{
+  height: 20px;
+  border-radius: 20px;
+  border-color:var(--bege);
+  background-color: var(--bege);
+  outline: none;
+  align-self: center;
+  margin-left: 400px;
+  
+}
+.musicShrek1{
+  background-color: var(--begeEscuro);
+  border-radius:18px;
+  width:1305px;
+  height:97px;
+  }
+audio{
+  width:1300px;
+  height:26px;
+  margin-left:2px;
+}
+h4{
+  margin:13px;
+  padding:0px;
+  color:var(--cinzaEscuro);
+}
+p{
+  margin: 8px;
+  padding:0px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  color:var(--cinzaEscuro);
+  }

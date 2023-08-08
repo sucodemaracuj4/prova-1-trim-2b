@@ -1,5 +1,6 @@
 function procurarMusicas() {
     let userinput = document.getElementById('searchInput').value.toLowerCase();
+<input id="value.toLowerCase"type="text">                                            
     let musicItems = document.querySelectorAll('.musicShrek1');
 
     for (let i = 0; i < musicItems.length; i++) {

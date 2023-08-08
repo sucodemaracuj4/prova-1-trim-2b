@@ -23,6 +23,7 @@ ul{
 header{
   display:flex;
   padding: 20px 15px;
+  text-decoration:none;
   color: var(--fundo);
   font-family: 'Pangolin', cursive;
   font-size:23px;
